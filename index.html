@@ -4,13 +4,8 @@
   <link rel="stylesheet" href="index.css">
   <title>Java Assist</title>
   <script src="main.js"></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1282022007459580"
-     crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-     <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
-     <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
    </head>
-     <script src="popup.js"></script>
+<script src="popup.js"></script>
 </head>
 <body>
   <div class="container">
@@ -22,38 +17,20 @@
           </div>
           <div class="sidebar-icon" onclick="showPage('page2')">
               <!-- Icon 2 -->
-              <img src="icons/pyhton.png" alt="Icon 2">
+              <img src="icons/python.png" alt="Icon 2">
           </div>
-          <div class="sidebar-icon" onclick="showPage('page3')">
-            <!-- Icon 2 -->
-            <img src="icons/gpt.png" alt="Icon 3">
-        </div>
           <!-- Add more icons as needed -->
       </div>
       
       <!-- Main Content -->
-      <div class="main-content">
           <div id="page1" class="page">
               <!-- Content for Page 1 -->
-              <iframe id="java"height="100vh"src="https://docs.oracle.com/en/java/javase/20/docs/api/index.html" width="100%"></iframe>
+              <iframe id="java"width="100%"height="100%"src="https://docs.oracle.com/en/java/javase/20/docs/api/index.html"></iframe>
           </div>
           <div id="page2" class="page">
               <!-- Content for Page 2 -->
-              <iframe id="python" height="100vh" src="https://docs.python.org/3.11/index.html" width="100%"></iframe>
+              <iframe id="python"width="100%"height="100%"src="https://docs.python.org/3.11/index.html"></iframe>
           </div>
-          <!-- Add more content divs for additional pages -->
-          <div id="page3" class="page">
-            <header>
-                <h1>Code Analysis with ChatGPT</h1>
-            </header>
-            <main>
-                <textarea id="code-input" placeholder="Enter your code here..."></textarea>
-                <button id="analyze-button">Analyze Code</button>
-                <div id="analysis-result"></div>
-            </main>
-            <script src="script.js"></script>
-        </div>
-      </div>
   </div>
 
   <!-- JavaScript to handle switching pages -->
