@@ -17,6 +17,7 @@
   body {
     width: 500px; 
     height: 400px; 
+    margin: 0%;
   }
   .horizontal-scroll-container {
     width: 100%; 
