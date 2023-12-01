@@ -14,7 +14,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  body {
+  body,html {
     width: 100%; 
     height: 100%;
     margin: 0%; 
@@ -24,6 +24,7 @@
     white-space: nowrap; 
     overflow-x: auto; 
     padding-bottom: 5px; 
+    padding-top: 5px; 
     scrollbar-width: none; 
     -ms-overflow-style: none; 
 
@@ -36,7 +37,7 @@
     overflow-x: hidden;
   }
   .frame{
-    width:500px;
+    width:100%;
   }
   .bord{
         border-style: dashed;
