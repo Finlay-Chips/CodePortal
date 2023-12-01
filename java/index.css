@@ -16,15 +16,14 @@
   }
   body {
     width: 500px; 
-    height: 400px; 
-    margin: 0%;
+    height: 400px;
+    margin: 0%; 
   }
   .horizontal-scroll-container {
     width: 100%; 
     white-space: nowrap; 
     overflow-x: auto; 
-    margin-bottom: 10px;
-    padding-bottom: 10px; 
+    padding-bottom: 5px; 
     scrollbar-width: none; 
     -ms-overflow-style: none; 
 

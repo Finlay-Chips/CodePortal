@@ -69,14 +69,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-//Auto open
-  document.addEventListener('DOMContentLoaded', function () {
-    const iframe = document.getElementById('javaFrame');
-  
-    
-      iframe.src = 'https://docs.oracle.com/javase/8/docs/api/overview-summary.html'; // Replace with your desired URL
-      iframe.style.display = 'block';
-    });
 //Math
   document.addEventListener('DOMContentLoaded', function () {
     const loadButton = document.getElementById('Math');
