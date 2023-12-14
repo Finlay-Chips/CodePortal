@@ -1,0 +1,49 @@
+.my-btn {
+    background-color: #4D7A97;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    min-height: 18px;
+    min-width: 72px;
+}
+.my-select{
+    width: 150px; /* Adjust the width as needed */
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  body {
+    width: 500px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    margin: 4px;
+  }
+  .horizontal-scroll-container {
+    width: 100%; /* Set the width to 100% of the container */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding-bottom: 5px; /* Add padding to create space for the scrollbar (even if it's hidden) */
+    scrollbar-width: none; /* Hide the scrollbar on browsers that support it */
+    -ms-overflow-style: none; /* Hide the scrollbar on Internet Explorer/Edge */
+}
+
+/* Optional: Define a style for the scrollbar track */
+.horizontal-scroll-container::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar on Webkit (Chrome, Safari, etc.) */
+}
+
+  .nobar{
+    overflow-x: hidden;
+  }
+  .frame{
+    width:500px;
+  }
+  .bord{
+        border-style: dashed;
+        border-width: 3px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-color: rgba(255, 0, 0, 0);
+    
+  }

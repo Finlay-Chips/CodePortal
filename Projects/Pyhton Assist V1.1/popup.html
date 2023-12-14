@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+  <title>pyFrame</title>
+  <script src="popup.js"></script>
+  <style>
+    iframe {
+      width: 400px;
+      height: 400px; /* Adjust the height as needed */
+      border: none;
+    }
+  </style>
+</head>
+<body style="background-color:rgb(51, 46, 46);">
+  <div class="horizontal-scroll-container">
+  <button id="Comp" class="my-btn" style="visibility: visible">Compiler</button>
+  <button id="Functions" class="my-btn" style="visibility: visible">Functions</button>
+  <button id="Types" class="my-btn" style="visibility: visible">Types</button>
+  <button id="Formats" class="my-btn" style="visibility: visible">Formats</button>
+  <button id="DataTypes" class="my-btn" style="visibility: visible">DataTypes</button>
+  <button id="Constants" class="my-btn" style="visibility: visible">Constants</button>  
+  <button id="Math" class="my-btn" style="visibility: visible">Math</button> 
+</div>
+  <iframe id="pyFrame" class="frame"style="display: none;" ></iframe>
+  <iframe id="compFrame" class="frame"style="display: none;"src='https://www.programiz.com/python-programming/online-compiler/' ></iframe>
+</body>
+</html>
